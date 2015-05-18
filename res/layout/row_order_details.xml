@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/table_title_text_color"
+    android:minHeight="45dp"
+    android:orientation="vertical"
+    android:padding="0.75dp" >
+
+    <LinearLayout
+        android:id="@+id/row_order_details_table_title_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/table_color_row_1"
+        android:minHeight="35dp" >
+
+        <TextView
+            android:id="@+id/row_order_details_text_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="Item" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="0.75dp"
+            android:layout_height="wrap_content"
+            android:background="@color/table_title_text_color" />
+
+        <TextView
+            android:id="@+id/row_order_details_text_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text="Quantity" />
+    </LinearLayout>
+
+</LinearLayout>

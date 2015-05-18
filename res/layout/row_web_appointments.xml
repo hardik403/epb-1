@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/table_title_text_color"
+    android:minHeight="45dp"
+    android:orientation="vertical"
+    android:padding="0.75dp" >
+
+    <LinearLayout
+        android:id="@+id/row_pending_appointments_table_title_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/table_color_row_1"
+        android:minHeight="35dp" >
+
+        <TextView
+            android:id="@+id/row_web_appointments_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Name" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="0.75dp"
+            android:layout_height="wrap_content"
+            android:background="@color/table_title_text_color" />
+
+        <TextView
+            android:id="@+id/row_web_appointments_contact"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Contact" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="0.75dp"
+            android:layout_height="wrap_content"
+            android:background="@color/table_title_text_color" />
+
+        <TextView
+            android:id="@+id/row_web_appointments_service"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Service" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="0.75dp"
+            android:layout_height="wrap_content"
+            android:background="@color/table_title_text_color" />
+
+        <TextView
+            android:id="@+id/row_web_appointments_date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Date" />
+        
+        <View
+            android:id="@+id/view4"
+            android:layout_width="0.75dp"
+            android:layout_height="wrap_content"
+            android:background="@color/table_title_text_color" />
+
+        <TextView
+            android:id="@+id/row_web_appointments_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Time" />
+    </LinearLayout>
+
+</LinearLayout>
