@@ -1,13 +1,17 @@
 package com.epb.activities;
 
-import com.epb.R;
-
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.net.wifi.WifiInfo;
+import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.Window;
 import android.view.WindowManager;
+
+import com.epb.R;
+import com.epb.utils.Constants;
 
 public class Activity_Splash extends Activity{
 	
@@ -23,6 +27,13 @@ public class Activity_Splash extends Activity{
 	                            WindowManager.LayoutParams.FLAG_FULLSCREEN);
 	    
 		setContentView(R.layout.activity_splash);
+		
+		WifiManager manager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
+		WifiInfo info = manager.getConnectionInfo();
+		
+		//for test - 00:08:22:f8:4d:00
+		Constants.macID = "00:08:22:f8:4d:00";
+		//Constants.macID = info.getMacAddress();
 		
 		new Handler().postDelayed(new Runnable() {
 			 

@@ -1,10 +1,10 @@
 package com.epb.activities;
 
-import com.epb.R;
-
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.epb.R;
 
 public class Activity_PendingAppointmentsMain extends Activity_Base {
 

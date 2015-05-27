@@ -40,12 +40,12 @@ public final class R {
         public static final int act_rx_orders_table=0x7f090006;
         public static final int act_rx_orders_table_title_container=0x7f090001;
         public static final int action_settings=0x7f090037;
-        public static final int button__dashboard_pharmacy_control=0x7f090010;
         public static final int button_dashboard_add_points=0x7f090009;
         public static final int button_dashboard_check_points=0x7f09000a;
         public static final int button_dashboard_ecomm=0x7f09000f;
         public static final int button_dashboard_new_confirmed_appointments=0x7f09000d;
         public static final int button_dashboard_pending_appointments=0x7f09000c;
+        public static final int button_dashboard_pharmacy_control=0x7f090010;
         public static final int button_order_details_back=0x7f090035;
         public static final int button_order_details_print=0x7f090036;
         public static final int imageView1=0x7f090018;
